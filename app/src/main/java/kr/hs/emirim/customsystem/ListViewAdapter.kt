@@ -26,8 +26,8 @@ class ListViewAdapter(var customerList : ArrayList<CustomerC>) : BaseAdapter() {
         val customer = customerList[position]
         rowItemView!!.list_name_gender.text = "이름 : " + customer.name + "/" + customer.gender
         rowItemView!!.list_tel.text = "연락처 : " + customer.tel
-        rowItemView!!.list_email.text = "이메일 : " + customer.email
-        rowItemView!!.list_location.text = "지역 : " + customer.location + "\n" + "등급 : " + customer.vip
+        rowItemView!!.list_email.text = "이메일 : " + customer.email+ "\n" + "등급 : " + customer.level
+        rowItemView!!.list_location.text = "지역 : " + customer.location
         return rowItemView
     }
 

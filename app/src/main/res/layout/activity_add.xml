@@ -95,38 +95,11 @@
                 android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:text="등급"/>
-            <RadioGroup
-                android:orientation="horizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
 
-                <RadioButton
-                    android:id="@+id/add_normal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="일반등급" />
-
-                <RadioButton
-                    android:id="@+id/add_S"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:checked="true"
-                    android:text="S등급" />
-
-                <RadioButton
-                    android:id="@+id/add_A"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:checked="true"
-                    android:text="A등급" />
-
-                <RadioButton
-                    android:id="@+id/add_VIP"
-                    android:layout_width="72dp"
-                    android:layout_height="wrap_content"
-                    android:checked="true"
-                    android:text="VIP" />
-            </RadioGroup>
+            <Spinner
+                android:id="@+id/level"
+                android:layout_width="282dp"
+                android:layout_height="match_parent" />
         </LinearLayout>
         <LinearLayout
             android:orientation="horizontal"

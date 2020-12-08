@@ -6,7 +6,7 @@ import android.database.sqlite.SQLiteOpenHelper
 
 class Customer(var context: Context) : SQLiteOpenHelper(context, "customer", null, 1) {
     override fun onCreate(p0: SQLiteDatabase?) {
-        var tableCreSql = "create table customerTBL (name varchar(20), gender varchar(5), tel char(20), email varchar(30), location varchar(20), vip varchar(10));"
+        var tableCreSql = "create table customerTBL (name varchar(20), gender varchar(5), tel char(20), email varchar(30), level varchar(10), location varchar(20));"
         p0!!.execSQL(tableCreSql)
 
 //        p0!!.execSQL("insert into CustomTBL values('최윤경',  '여자', '010-5257-2035',  '안산 와동')")
