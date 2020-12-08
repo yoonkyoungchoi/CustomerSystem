@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/itemImage"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:src="@drawable/imag"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/list_name_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이름/성별 : "
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/list_tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="연락처 : "
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/list_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이메일 : "
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/list_vip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="등급 : "
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/list_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="지역 : "
+            android:textColor="#000000"/>
+    </LinearLayout>
+</LinearLayout>
